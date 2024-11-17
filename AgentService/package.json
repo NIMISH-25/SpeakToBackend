@@ -1,0 +1,28 @@
+{
+  "name": "agent-service",
+  "version": "1.0.0",
+  "description": "The backend for the AI agent service that accepts prompts and returns the output to run the APIs.",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "build": "tsc",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/express": "^4.17.1",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.14.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "openai": "^4.72.0"
+  }
+}

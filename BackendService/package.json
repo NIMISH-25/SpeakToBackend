@@ -1,0 +1,35 @@
+{
+  "name": "backenddemoservice",
+  "version": "1.0.0",
+  "description": "BackendDemoService for Luddy Hackathon",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "nodemon",
+    "prestart": "tsc",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^4.17.1",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/mongoose": "^5.11.96",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.14.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.17.1",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.1",
+    "nodemon": "^3.1.7"
+  }
+}
